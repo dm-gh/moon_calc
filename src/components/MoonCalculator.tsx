@@ -29,7 +29,7 @@ function calculateSign(dateString: string): string {
   // Step 2. Calculate the number of days between your date of birth (GMT)and January 23, 1921.
   // This date has no particular significance other than the motion
   // of the moon through the zodiac was at a highpoint at this time
-  const highPointDate = moment('1921-01-23', 'YYYY-MM-DD');
+  const highPointDate = moment('2000-01-21', 'YYYY-MM-DD');
   const daysSinceHighPoint = date.diff(highPointDate, 'days');
 
   // Step 3. Convert your time of birth to the equivalent fraction of a day,
