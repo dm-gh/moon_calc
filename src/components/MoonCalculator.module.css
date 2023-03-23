@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.label {
+  font-size: 1.5em;
+}
+.input {
+  font-size: 1.5em;
+  padding: 4px 8px;
+}
